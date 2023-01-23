@@ -6,5 +6,6 @@ description = "Wrappers for Rc and Arc weak pointers for auto re-initialization 
 repository = "https://github.com/crsov/re-init-rc/"
 keywords = ["arc", "rc"]
 categories = ["data-structures", "memory-management"]
+license = "MIT"
 
 [dependencies]
