@@ -1,5 +1,6 @@
 [package]
 name = "re-init-rc"
+authors = ["Nicholas Burtsev"]
 version = "0.1.0"
 edition = "2021"
 description = "Wrappers for Rc and Arc weak pointers for auto re-initialization of inner value on access when it is already dropped."
@@ -7,5 +8,7 @@ repository = "https://github.com/crsov/re-init-rc/"
 keywords = ["arc", "rc"]
 categories = ["data-structures", "memory-management"]
 license = "MIT"
+rust-version = "1.56"
+readme = "README.md"
 
 [dependencies]
