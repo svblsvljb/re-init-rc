@@ -11,7 +11,7 @@ pub struct ReInitArc<T, F> {
 
 impl<F, T> ReInitArc<T, F>
 where
-    F: Fn() -> T,
+    F: FnMut() -> T,
 {
     pub fn new(init_fn: F) -> Self {
         Self {
@@ -37,7 +37,7 @@ pub struct ReInitRc<T, F> {
 
 impl<F, T> ReInitRc<T, F>
 where
-    F: Fn() -> T,
+    F: FnMut() -> T,
 {
     pub fn new(init_fn: F) -> Self {
         Self {
